@@ -13,6 +13,64 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 /* =WordPress Core
 -------------------------------------------------------------- */
+/* mensaje bloqueado*/
+.mensaje{
+    width: 600px;
+    
+    color: #fff;
+    margin: 0 auto;
+    background-color: #336699;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.75);
+    text-align: justify;
+    font-size: 1em;
+}
+.mensaje-titulo{
+    background-color: #424242;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+#u-sesion{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.usuario{
+    width: 10px;
+}
+.derecha a, .izq a{
+    background-color: #FF9933;
+    color: #fff;
+    border: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.derecha a:hover, .izq a:hover{
+    background-color: #3299BB;
+    color: #fff;
+    font-weight: bolder;
+}
+.opciones{
+    text-align: center;
+}
+.derecha{
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+
+}
+.izq{
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+
+}
+/*fin de mensaje bloqueado */
 .alignnone {
     margin: 5px 20px 20px 0;
 }
