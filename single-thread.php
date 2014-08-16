@@ -259,20 +259,22 @@ if ( $post->post_status == 'closed'){
 			 * List replies aquie empieza a cambiar
 			 */	
 			?>
-			<div id="replies_list">
-			<?php
-				global $et_repliesData;
-				$et_repliesData = array();
-				if ( $replies_query->have_posts() ){
-					while ( $replies_query->have_posts() ) {
-						global $post;
-						$replies_query->the_post();
-						$reply 				= FE_Replies::convert($post);
-						$et_repliesData[] 	= $reply;						
-						get_template_part( 'template/reply', 'item' );
-					}// end while
-				} //end if
-			?>
+			<div class="mensaje">
+				<h2 class="mensaje-titulo">El contenido de esta página es exclusivo para Suscriptores Premium.</h2>
+				<p id="u-sesion">Si es Suscriptor Premium por favor inicie sesión</p>
+				<div class="opciones">
+					<div class="derecha">
+						<p>Si aun no eres Suscriptor Premium te invitamos a </p> <a href="http://haztusimpuestos.com/planes-de-suscripcion/">Suscribirte Ahora</a>
+					
+					</div>			
+					<div class="izq">
+						<p>o consulte la información libre que tenemos disponible en nuestra</p> <a href="http://haztusimpuestos.com/">Pagina Frontal</a>
+					</div>
+				</div>
+				<div id="Newer-Older" class="alt">
+					<div class="newer"><span>Anterior</span></div>
+					<div class="older"><span>Siguiente</span></div>
+				</div>
 			</div>
 			<!-- end items replies -->
 			<script type="text/javascript">
