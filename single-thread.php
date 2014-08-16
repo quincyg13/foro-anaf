@@ -260,20 +260,12 @@ if ( $post->post_status == 'closed'){
 			 */	
 			?>
 			<div class="mensaje">
-				<h2 class="mensaje-titulo">El contenido de esta página es exclusivo para Suscriptores Premium.</h2>
-				<p id="u-sesion">Si es Suscriptor Premium por favor inicie sesión</p>
+				<h3 class="mensaje-titulo">El contenido de esta página es exclusivo para Socios de la ANAFINET A.C.</h3>
+				<p id="u-sesion">Si es socio por favor inicie sesión para ver las respuestas . Si aun no es socio</p>
 				<div class="opciones">
 					<div class="derecha">
-						<p>Si aun no eres Suscriptor Premium te invitamos a </p> <a href="http://haztusimpuestos.com/planes-de-suscripcion/">Suscribirte Ahora</a>
-					
+						<p>Si aun no es socio </p> <a href="http://fiscalistas.mx/anafinet-ac/afiliese-a-la-anafinet/">Afiliese a la ANAFINET</a>					
 					</div>			
-					<div class="izq">
-						<p>o consulte la información libre que tenemos disponible en nuestra</p> <a href="http://haztusimpuestos.com/">Pagina Frontal</a>
-					</div>
-				</div>
-				<div id="Newer-Older" class="alt">
-					<div class="newer"><span>Anterior</span></div>
-					<div class="older"><span>Siguiente</span></div>
 				</div>
 			</div>
 			<!-- end items replies -->

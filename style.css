@@ -19,6 +19,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
     
     color: #fff;
     margin: 0 auto;
+    padding-bottom: 10px;
     background-color: #336699;
     -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.75);
@@ -40,7 +41,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 .usuario{
     width: 10px;
 }
-.derecha a, .izq a{
+.mensaje a{
     background-color: #FF9933;
     color: #fff;
     border: 5px;
@@ -50,13 +51,14 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
     font-weight: bolder;
 
 }
-.derecha a:hover, .izq a:hover{
+.mensaje a:hover{
     background-color: #3299BB;
     color: #fff;
     font-weight: bolder;
 }
 .opciones{
     text-align: center;
+    margin-bottom: 10px;
 }
 .derecha{
     display: inline-block;
@@ -65,8 +67,6 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 }
 .izq{
-    display: inline-block;
-    width: 250px;
     text-align: center;
 
 }

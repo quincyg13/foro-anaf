@@ -147,16 +147,15 @@ else
 		</article>
 		<!-- End Thread Content -->
 		<!-- Start Loop Replies las respuestas-->			
-		<?php
-			$replies_query = FE_Replies::get_replies(array('paged' => get_query_var( 'page' ), 'post_parent' => $post->ID, 'order' => 'ASC' )) ;
-			if ( $replies_query->have_posts() ){
-				while ( $replies_query->have_posts() ) {
-					$replies_query->the_post(); 
-					$reply 			= FE_Replies::convert($post);			
-					get_template_part( 'mobile/template/reply', 'item' );
-				} // end while
-			} // end if
-		?>
+		<div class="mensaje">
+				<h3 class="mensaje-titulo">El contenido de esta página es exclusivo para Socios de la ANAFINET A.C.</h3>
+				<p id="u-sesion">Si es socio por favor inicie sesión para ver las respuestas.</p>
+				<div class="opciones">
+					<div class="derecha">
+						<p>Si aun no es socio </p> <a href="http://fiscalistas.mx/anafinet-ac/afiliese-a-la-anafinet/">Afiliese a la ANAFINET</a>					
+					</div>			
+				</div>
+			</div>
 		<!-- End Loop Replies -->	
 	</div>
 	<!-- button load more -->
